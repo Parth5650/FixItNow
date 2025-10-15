@@ -1,0 +1,69 @@
+﻿@model IEnumerable<FixItNow.Models.Service>
+@{
+    ViewData["Title"] = "Services";
+}
+
+<div class="d-flex align-items-center justify-content-between mb-3">
+    <h1 class="h4 mb-0">All services</h1>
+    <a class="btn btn-outline-primary btn-sm" href="/Requests/Create">Book now</a>
+</div>
+
+<div class="mb-4">
+    <h2 class="h5 mb-3">Featured tasks</h2>
+    <div class="row">
+        <div class="col-md-3 mb-3">
+            <div class="card h-100">
+                <div class="card-body">
+                    <div class="small text-muted mb-1">Assembly</div>
+                    <div class="font-weight-bold">Furniture Assembly</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-3">
+            <div class="card h-100">
+                <div class="card-body">
+                    <div class="small text-muted mb-1">Repairs</div>
+                    <div class="font-weight-bold">Home Repairs</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-3">
+            <div class="card h-100">
+                <div class="card-body">
+                    <div class="small text-muted mb-1">Moving</div>
+                    <div class="font-weight-bold">Help Moving</div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3 mb-3">
+            <div class="card h-100">
+                <div class="card-body">
+                    <div class="small text-muted mb-1">Cleaning</div>
+                    <div class="font-weight-bold">Home Cleaning</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<table class="table table-striped table-hover">
+    <thead>
+        <tr>
+            <th>Service</th>
+            <th>Category</th>
+            <th>Price (₹)</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var s in Model)
+        {
+            <tr>
+                <td>@s.Name</td>
+                <td>@s.Category?.Name</td>
+                <td>@s.Price</td>
+                <td><a class="btn btn-sm btn-primary" href="/Services/Details/@s.Id">View</a></td>
+            </tr>
+        }
+    </tbody>
+</table>

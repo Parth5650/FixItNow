@@ -1,0 +1,79 @@
+@{
+    ViewData["Title"] = "About Us";
+}
+
+<div class="about-hero py-5 mb-4">
+    <div class="container">
+        <h1 class="display-4 text-white mb-2">About FixItNow</h1>
+        <p class="lead text-white-70">Trusted help for home tasks, done right.</p>
+    </div>
+    <div class="about-hero-overlay"></div>
+    <style>
+        .about-hero { position: relative; background: linear-gradient(135deg, var(--primary), #1e40af); }
+        .about-hero .container { position: relative; z-index: 2; }
+        .about-hero-overlay { position:absolute; inset:0; opacity:.1; background:url('/images/pattern.svg'); background-size: 500px; }
+        .text-white-70 { color: rgba(255,255,255,.8); }
+    </style>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-7">
+            <h2 class="h4 mb-3">Our mission</h2>
+            <p class="text-muted">We make it effortless to book reliable professionals for everyday home tasks. From plumbing and electrical to moving and cleaning, our goal is to deliver quality work with transparent pricing and a delightful experience.</p>
+
+            <h2 class="h4 mt-4 mb-3">Why choose us</h2>
+            <ul class="list-unstyled">
+                <li class="mb-2"><i class="fas fa-check text-success mr-2"></i> Background-checked, vetted pros</li>
+                <li class="mb-2"><i class="fas fa-check text-success mr-2"></i> Easy scheduling and secure payments</li>
+                <li class="mb-2"><i class="fas fa-check text-success mr-2"></i> Clear, upfront pricing</li>
+                <li class="mb-2"><i class="fas fa-check text-success mr-2"></i> Satisfaction guaranteed</li>
+            </ul>
+
+            <h2 class="h4 mt-4 mb-3">How it works</h2>
+            <ol class="pl-3">
+                <li class="mb-2">Browse services and pick what you need</li>
+                <li class="mb-2">Choose a convenient date and time</li>
+                <li class="mb-2">We match you with a qualified professional</li>
+                <li class="mb-2">Track your booking status and relax</li>
+            </ol>
+        </div>
+        <div class="col-lg-5">
+            <div class="card border-0 shadow-sm mb-4">
+                <div class="card-body">
+                    <h5 class="mb-3">Our values</h5>
+                    <div class="d-flex align-items-start mb-3">
+                        <span class="badge badge-primary mr-2">Trust</span>
+                        <p class="mb-0 text-muted">We earn it with quality, consistency, and care.</p>
+                    </div>
+                    <div class="d-flex align-items-start mb-3">
+                        <span class="badge badge-primary mr-2">Speed</span>
+                        <p class="mb-0 text-muted">Book in minutes, get help when you need it.</p>
+                    </div>
+                    <div class="d-flex align-items-start">
+                        <span class="badge badge-primary mr-2">Support</span>
+                        <p class="mb-0 text-muted">We’re here to help from booking to completion.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card border-0 shadow-sm">
+                <div class="card-body">
+                    <h5 class="mb-3">Contact</h5>
+                    <p class="mb-1"><i class="fas fa-envelope text-primary mr-2"></i> support@fixitnow.com</p>
+                    <p class="mb-0"><i class="fas fa-phone text-primary mr-2"></i> +1 (800) FIX-IT-NOW</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .badge-primary { background-color: var(--primary); }
+    .text-primary { color: var(--primary) !important; }
+    .card { border: 1px solid var(--gray-200); }
+    .shadow-sm { box-shadow: 0 2px 6px rgba(0,0,0,0.08); }
+    .mr-2 { margin-right: .5rem; }
+    .mb-4 { margin-bottom: 1.5rem; }
+</style>
+
+

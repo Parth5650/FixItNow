@@ -1,0 +1,132 @@
+@model FixItNow.Models.ServiceRequest
+@{
+    ViewData["Title"] = "Booking Successful";
+}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <div class="card border-0 shadow-lg">
+                <div class="card-body text-center p-5">
+                    <!-- Success Icon -->
+                    <div class="mb-4">
+                        <div class="mx-auto d-flex align-items-center justify-content-center" 
+                             style="width: 80px; height: 80px; background: linear-gradient(135deg, #10b981, #34d399); border-radius: 50%;">
+                            <i class="fas fa-check text-white" style="font-size: 2.5rem;"></i>
+                        </div>
+                    </div>
+
+                    <!-- Success Message -->
+                    <h1 class="h2 text-success mb-3">Service Booked Successfully!</h1>
+                    <p class="text-muted mb-4">Your service request has been submitted and we'll contact you soon.</p>
+
+                    <!-- Booking Details -->
+                    <div class="card bg-light mb-4">
+                        <div class="card-body">
+                            <h5 class="card-title text-primary mb-3">Booking Details</h5>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <strong>Service:</strong><br>
+                                    <span class="text-muted">@Model.Service?.Name</span>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <strong>Booking ID:</strong><br>
+                                    <span class="text-muted">#@Model.Id.ToString("D6")</span>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <strong>Date:</strong><br>
+                                    <span class="text-muted">@Model.PreferredDate.ToString("dddd, MMMM dd, yyyy")</span>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <strong>Time:</strong><br>
+                                    <span class="text-muted">@Model.PreferredTime</span>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <strong>Total Price:</strong><br>
+                                    <span class="text-success font-weight-bold">₹@Model.EstimatedPrice</span>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <strong>Status:</strong><br>
+                                    <span class="badge badge-warning">@Model.Status</span>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-12">
+                                    <strong>Service Address:</strong><br>
+                                    <span class="text-muted">@Model.Address</span>
+                                </div>
+                            </div>
+                            @if (!string.IsNullOrEmpty(Model.Notes))
+                            {
+                                <div class="row mt-3">
+                                    <div class="col-12">
+                                        <strong>Special Instructions:</strong><br>
+                                        <span class="text-muted">@Model.Notes</span>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+
+                    <!-- Next Steps -->
+                    <div class="alert alert-info text-left">
+                        <h6 class="alert-heading">What happens next?</h6>
+                        <ul class="mb-0">
+                            <li>We'll review your request and assign a qualified professional</li>
+                            <li>You'll receive a confirmation call within 2 hours</li>
+                            <li>Our professional will contact you 24 hours before the scheduled time</li>
+                            <li>You can track your booking status in your account</li>
+                        </ul>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="d-flex justify-content-center gap-3">
+                        <a href="/Services" class="btn btn-outline-primary">
+                            <i class="fas fa-search mr-2"></i>Browse More Services
+                        </a>
+                        <a href="/" class="btn btn-primary">
+                            <i class="fas fa-home mr-2"></i>Go to Home
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.card {
+    border-radius: 15px;
+}
+.badge-warning {
+    background-color: #f59e0b;
+    color: white;
+}
+.text-success {
+    color: #10b981 !important;
+}
+.text-primary {
+    color: var(--primary) !important;
+}
+.btn-primary {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+.btn-primary:hover {
+    background-color: var(--primary-dark);
+    border-color: var(--primary-dark);
+}
+.btn-outline-primary {
+    color: var(--primary);
+    border-color: var(--primary);
+}
+.btn-outline-primary:hover {
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+.alert-info {
+    background-color: var(--primary-50);
+    border-color: var(--primary-100);
+    color: var(--primary-900);
+}
+</style>

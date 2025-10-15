@@ -1,0 +1,46 @@
+﻿@model IEnumerable<FixItNow.Models.ServiceRequest>
+@{
+    ViewData["Title"] = "Admin - Requests";
+}
+
+<h2>All Service Requests</h2>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Customer</th>
+            <th>Phone</th>
+            <th>Service</th>
+            <th>Preferred Date</th>
+            <th>Price (₹)</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var r in Model)
+        {
+            <tr>
+                <td>@r.Id</td>
+                <td>@r.CustomerName</td>
+                <td>@r.Phone</td>
+                <td>@r.Service?.Name (@r.Service?.Category?.Name)</td>
+                <td>@r.PreferredDate.ToShortDateString()</td>
+                <td>@r.EstimatedPrice</td>
+                <td>@r.Status</td>
+                <td>
+                    <form asp-controller="Admin" asp-action="ChangeStatus" method="post" style="display:inline-block">
+                        <input type="hidden" name="id" value="@r.Id" />
+                        <select name="status" class="form-control form-control-sm" style="display:inline-block; width:auto">
+                            <option value="Pending" selected="@(r.Status=="Pending" ? "selected" : null)">Pending</option>
+                            <option value="Accepted" selected="@(r.Status=="Accepted" ? "selected" : null)">Accepted</option>
+                            <option value="InProgress" selected="@(r.Status=="InProgress" ? "selected" : null)">InProgress</option>
+                            <option value="Completed" selected="@(r.Status=="Completed" ? "selected" : null)">Completed</option>
+                        </select>
+                        <button type="submit" class="btn btn-sm btn-primary">Update</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

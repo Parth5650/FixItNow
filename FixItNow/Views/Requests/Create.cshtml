@@ -1,0 +1,42 @@
+﻿@model FixItNow.Models.ServiceRequest
+@{
+    ViewData["Title"] = "Book Service";
+}
+
+<h1 class="h4">Book a service</h1>
+
+<form asp-action="Create" method="post">
+    @Html.AntiForgeryToken()
+    <div class="form-group">
+        <label asp-for="CustomerName"></label>
+        <input asp-for="CustomerName" class="form-control" />
+        <span asp-validation-for="CustomerName" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Phone"></label>
+        <input asp-for="Phone" class="form-control" />
+        <span asp-validation-for="Phone" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Address"></label>
+        <textarea asp-for="Address" class="form-control"></textarea>
+        <span asp-validation-for="Address" class="text-danger"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="ServiceId">Service</label>
+        <select asp-for="ServiceId" asp-items="@(ViewData["ServiceId"] as IEnumerable<Microsoft.AspNetCore.Mvc.Rendering.SelectListItem>)" class="form-control"></select>
+    </div>
+    <div class="form-group">
+        <label asp-for="PreferredDate"></label>
+        <input asp-for="PreferredDate" type="date" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="Notes"></label>
+        <textarea asp-for="Notes" class="form-control"></textarea>
+    </div>x 
+    <button type="submit" class="btn btn-primary">Submit request</button>
+</form>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

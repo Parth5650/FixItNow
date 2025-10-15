@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FixItNow - @ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="/css/site.css" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="/">
+                <span class="font-weight-bold">FixItNow</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="/Services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/Home/About">About Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/Admin">Admin</a></li>
+                    @if (User.Identity.IsAuthenticated && User.IsInRole("Admin")) {
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Admin/Index">Admin Bookings</a>
+                        </li>
+                    }
+                </ul>
+                <div class="d-flex">
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        if (User.HasClaim("IsAdmin", "true"))
+                        {
+                            <a class="btn btn-outline-primary mr-2" href="/Admin">Admin</a>
+                        }
+                        <a class="btn btn-outline-secondary mr-2" href="/Account/MyBookings">My Bookings</a>
+                        <form class="mb-0" method="post" action="/Account/Logout">
+                            @Html.AntiForgeryToken()
+                            <button type="submit" class="btn btn-outline-primary mr-2">Logout (@User.Identity.Name)</button>
+                        </form>
+                        <a class="btn btn-primary" href="/Requests/Create">Book now</a>
+                    }
+                    else
+                    {
+                        <a class="btn btn-outline-primary mr-2" href="/Account/Login">Login</a>
+                        <a class="btn btn-primary" href="/Account/Register">Sign up</a>
+                    }
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main role="main" class="py-4">
+        <div class="container">
+            @if (TempData["SuccessMessage"] != null)
+            {
+                <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+            }
+            @RenderBody()
+        </div>
+    </main>
+
+    <footer class="footer border-top">
+        <div class="container d-flex justify-content-between align-items-center">
+            <span class="text-muted">© @DateTime.Now.Year FixItNow</span>
+            <div>
+                <a href="/Home/Privacy" class="text-muted mr-3">Privacy</a>
+                <a href="/Services" class="text-muted">All Services</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

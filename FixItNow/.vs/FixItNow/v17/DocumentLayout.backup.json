@@ -1,0 +1,390 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\DDU\\Sem_5\\WAD\\FixItNow\\FixItNow\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4B25EA83-AA88-4137-BE7D-606134A2E8D1}|FixItNow.csproj|e:\\ddu\\sem_5\\wad\\fixitnow\\fixitnow\\fixitnow.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4B25EA83-AA88-4137-BE7D-606134A2E8D1}|FixItNow.csproj|solutionrelative:fixitnow.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B25EA83-AA88-4137-BE7D-606134A2E8D1}|FixItNow.csproj|e:\\ddu\\sem_5\\wad\\fixitnow\\fixitnow\\fixitnow.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{4B25EA83-AA88-4137-BE7D-606134A2E8D1}|FixItNow.csproj|solutionrelative:fixitnow.csproj.backup.tmp||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B25EA83-AA88-4137-BE7D-606134A2E8D1}|FixItNow.csproj|e:\\ddu\\sem_5\\wad\\fixitnow\\fixitnow\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4B25EA83-AA88-4137-BE7D-606134A2E8D1}|FixItNow.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B25EA83-AA88-4137-BE7D-606134A2E8D1}|FixItNow.csproj|e:\\ddu\\sem_5\\wad\\fixitnow\\fixitnow\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B25EA83-AA88-4137-BE7D-606134A2E8D1}|FixItNow.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B25EA83-AA88-4137-BE7D-606134A2E8D1}|FixItNow.csproj|e:\\ddu\\sem_5\\wad\\fixitnow\\fixitnow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B25EA83-AA88-4137-BE7D-606134A2E8D1}|FixItNow.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B25EA83-AA88-4137-BE7D-606134A2E8D1}|FixItNow.csproj|e:\\ddu\\sem_5\\wad\\fixitnow\\fixitnow\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B25EA83-AA88-4137-BE7D-606134A2E8D1}|FixItNow.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B25EA83-AA88-4137-BE7D-606134A2E8D1}|FixItNow.csproj|e:\\ddu\\sem_5\\wad\\fixitnow\\fixitnow\\views\\requests\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B25EA83-AA88-4137-BE7D-606134A2E8D1}|FixItNow.csproj|solutionrelative:views\\requests\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B25EA83-AA88-4137-BE7D-606134A2E8D1}|FixItNow.csproj|e:\\ddu\\sem_5\\wad\\fixitnow\\fixitnow\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B25EA83-AA88-4137-BE7D-606134A2E8D1}|FixItNow.csproj|solutionrelative:views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.302\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B25EA83-AA88-4137-BE7D-606134A2E8D1}|FixItNow.csproj|e:\\ddu\\sem_5\\wad\\fixitnow\\fixitnow\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B25EA83-AA88-4137-BE7D-606134A2E8D1}|FixItNow.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B25EA83-AA88-4137-BE7D-606134A2E8D1}|FixItNow.csproj|e:\\ddu\\sem_5\\wad\\fixitnow\\fixitnow\\views\\services\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B25EA83-AA88-4137-BE7D-606134A2E8D1}|FixItNow.csproj|solutionrelative:views\\services\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B25EA83-AA88-4137-BE7D-606134A2E8D1}|FixItNow.csproj|e:\\ddu\\sem_5\\wad\\fixitnow\\fixitnow\\views\\services\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B25EA83-AA88-4137-BE7D-606134A2E8D1}|FixItNow.csproj|solutionrelative:views\\services\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B25EA83-AA88-4137-BE7D-606134A2E8D1}|FixItNow.csproj|e:\\ddu\\sem_5\\wad\\fixitnow\\fixitnow\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B25EA83-AA88-4137-BE7D-606134A2E8D1}|FixItNow.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B25EA83-AA88-4137-BE7D-606134A2E8D1}|FixItNow.csproj|e:\\ddu\\sem_5\\wad\\fixitnow\\fixitnow\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B25EA83-AA88-4137-BE7D-606134A2E8D1}|FixItNow.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B25EA83-AA88-4137-BE7D-606134A2E8D1}|FixItNow.csproj|e:\\ddu\\sem_5\\wad\\fixitnow\\fixitnow\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4B25EA83-AA88-4137-BE7D-606134A2E8D1}|FixItNow.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B25EA83-AA88-4137-BE7D-606134A2E8D1}|FixItNow.csproj|e:\\ddu\\sem_5\\wad\\fixitnow\\fixitnow\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B25EA83-AA88-4137-BE7D-606134A2E8D1}|FixItNow.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B25EA83-AA88-4137-BE7D-606134A2E8D1}|FixItNow.csproj|e:\\ddu\\sem_5\\wad\\fixitnow\\fixitnow\\controllers\\requestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B25EA83-AA88-4137-BE7D-606134A2E8D1}|FixItNow.csproj|solutionrelative:controllers\\requestscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B25EA83-AA88-4137-BE7D-606134A2E8D1}|FixItNow.csproj|e:\\ddu\\sem_5\\wad\\fixitnow\\fixitnow\\controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B25EA83-AA88-4137-BE7D-606134A2E8D1}|FixItNow.csproj|solutionrelative:controllers\\servicecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B25EA83-AA88-4137-BE7D-606134A2E8D1}|FixItNow.csproj|e:\\ddu\\sem_5\\wad\\fixitnow\\fixitnow\\models\\servicerequests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B25EA83-AA88-4137-BE7D-606134A2E8D1}|FixItNow.csproj|solutionrelative:models\\servicerequests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B25EA83-AA88-4137-BE7D-606134A2E8D1}|FixItNow.csproj|e:\\ddu\\sem_5\\wad\\fixitnow\\fixitnow\\models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B25EA83-AA88-4137-BE7D-606134A2E8D1}|FixItNow.csproj|solutionrelative:models\\service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B25EA83-AA88-4137-BE7D-606134A2E8D1}|FixItNow.csproj|e:\\ddu\\sem_5\\wad\\fixitnow\\fixitnow\\models\\servicecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B25EA83-AA88-4137-BE7D-606134A2E8D1}|FixItNow.csproj|solutionrelative:models\\servicecategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4B25EA83-AA88-4137-BE7D-606134A2E8D1}|FixItNow.csproj|e:\\ddu\\sem_5\\wad\\fixitnow\\fixitnow\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4B25EA83-AA88-4137-BE7D-606134A2E8D1}|FixItNow.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 11,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Microsoft.NET.EolTargetFrameworks.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.302\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\9.0.302\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.EolTargetFrameworks.targets",
+              "ViewState": "AgIAABcAAAAAAAAAAAD4vx8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-09-08T15:31:28.845Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\DDU\\Sem_5\\WAD\\FixItNow\\FixItNow\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Admin\\Index.cshtml",
+              "ToolTip": "E:\\DDU\\Sem_5\\WAD\\FixItNow\\FixItNow\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAACAAAAAAAAAAAADwvy4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-08T15:24:44.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "E:\\DDU\\Sem_5\\WAD\\FixItNow\\FixItNow\\Startup.cs",
+              "RelativeDocumentMoniker": "Startup.cs",
+              "ToolTip": "E:\\DDU\\Sem_5\\WAD\\FixItNow\\FixItNow\\Startup.cs",
+              "RelativeToolTip": "Startup.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T15:16:14.954Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\DDU\\Sem_5\\WAD\\FixItNow\\FixItNow\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\DDU\\Sem_5\\WAD\\FixItNow\\FixItNow\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T15:16:02.251Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\DDU\\Sem_5\\WAD\\FixItNow\\FixItNow\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\DDU\\Sem_5\\WAD\\FixItNow\\FixItNow\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-08T15:15:41.18Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FixItNow.csproj.Backup.tmp",
+              "DocumentMoniker": "E:\\DDU\\Sem_5\\WAD\\FixItNow\\FixItNow\\FixItNow.csproj.Backup.tmp",
+              "RelativeDocumentMoniker": "FixItNow.csproj.Backup.tmp",
+              "ToolTip": "E:\\DDU\\Sem_5\\WAD\\FixItNow\\FixItNow\\FixItNow.csproj.Backup.tmp",
+              "RelativeToolTip": "FixItNow.csproj.Backup.tmp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-09-29T04:58:16.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FixItNow.csproj",
+              "DocumentMoniker": "E:\\DDU\\Sem_5\\WAD\\FixItNow\\FixItNow\\FixItNow.csproj",
+              "RelativeDocumentMoniker": "FixItNow.csproj",
+              "ToolTip": "E:\\DDU\\Sem_5\\WAD\\FixItNow\\FixItNow\\FixItNow.csproj",
+              "RelativeToolTip": "FixItNow.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-08T15:16:32.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "E:\\DDU\\Sem_5\\WAD\\FixItNow\\FixItNow\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "E:\\DDU\\Sem_5\\WAD\\FixItNow\\FixItNow\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-08T15:22:20.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\DDU\\Sem_5\\WAD\\FixItNow\\FixItNow\\Views\\Requests\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Requests\\Create.cshtml",
+              "ToolTip": "E:\\DDU\\Sem_5\\WAD\\FixItNow\\FixItNow\\Views\\Requests\\Create.cshtml",
+              "RelativeToolTip": "Views\\Requests\\Create.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-08T15:24:01.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\DDU\\Sem_5\\WAD\\FixItNow\\FixItNow\\Views\\Services\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Services\\Index.cshtml",
+              "ToolTip": "E:\\DDU\\Sem_5\\WAD\\FixItNow\\FixItNow\\Views\\Services\\Index.cshtml",
+              "RelativeToolTip": "Views\\Services\\Index.cshtml",
+              "ViewState": "AgIAADUAAAAAAAAAAAAswEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-08T15:23:03.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\DDU\\Sem_5\\WAD\\FixItNow\\FixItNow\\Views\\Services\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Services\\Details.cshtml",
+              "ToolTip": "E:\\DDU\\Sem_5\\WAD\\FixItNow\\FixItNow\\Views\\Services\\Details.cshtml",
+              "RelativeToolTip": "Views\\Services\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-08T15:23:02.492Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\DDU\\Sem_5\\WAD\\FixItNow\\FixItNow\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "E:\\DDU\\Sem_5\\WAD\\FixItNow\\FixItNow\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAswA4AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T15:20:45.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "RequestsController.cs",
+              "DocumentMoniker": "E:\\DDU\\Sem_5\\WAD\\FixItNow\\FixItNow\\Controllers\\RequestsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RequestsController.cs",
+              "ToolTip": "E:\\DDU\\Sem_5\\WAD\\FixItNow\\FixItNow\\Controllers\\RequestsController.cs",
+              "RelativeToolTip": "Controllers\\RequestsController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAswDQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T15:21:25.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "E:\\DDU\\Sem_5\\WAD\\FixItNow\\FixItNow\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "E:\\DDU\\Sem_5\\WAD\\FixItNow\\FixItNow\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAswCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T15:21:48.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "E:\\DDU\\Sem_5\\WAD\\FixItNow\\FixItNow\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "E:\\DDU\\Sem_5\\WAD\\FixItNow\\FixItNow\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-08T15:22:14.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "E:\\DDU\\Sem_5\\WAD\\FixItNow\\FixItNow\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "E:\\DDU\\Sem_5\\WAD\\FixItNow\\FixItNow\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAswEIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-08T15:22:31.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\DDU\\Sem_5\\WAD\\FixItNow\\FixItNow\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "E:\\DDU\\Sem_5\\WAD\\FixItNow\\FixItNow\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAswEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-08T15:22:42.032Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ServiceController.cs",
+              "DocumentMoniker": "E:\\DDU\\Sem_5\\WAD\\FixItNow\\FixItNow\\Controllers\\ServiceController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ServiceController.cs",
+              "ToolTip": "E:\\DDU\\Sem_5\\WAD\\FixItNow\\FixItNow\\Controllers\\ServiceController.cs",
+              "RelativeToolTip": "Controllers\\ServiceController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA9wBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T15:21:00.547Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ServiceRequests.cs",
+              "DocumentMoniker": "E:\\DDU\\Sem_5\\WAD\\FixItNow\\FixItNow\\Models\\ServiceRequests.cs",
+              "RelativeDocumentMoniker": "Models\\ServiceRequests.cs",
+              "ToolTip": "E:\\DDU\\Sem_5\\WAD\\FixItNow\\FixItNow\\Models\\ServiceRequests.cs",
+              "RelativeToolTip": "Models\\ServiceRequests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T15:20:22.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Service.cs",
+              "DocumentMoniker": "E:\\DDU\\Sem_5\\WAD\\FixItNow\\FixItNow\\Models\\Service.cs",
+              "RelativeDocumentMoniker": "Models\\Service.cs",
+              "ToolTip": "E:\\DDU\\Sem_5\\WAD\\FixItNow\\FixItNow\\Models\\Service.cs",
+              "RelativeToolTip": "Models\\Service.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAA9wBUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T15:20:10.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ServiceCategory.cs",
+              "DocumentMoniker": "E:\\DDU\\Sem_5\\WAD\\FixItNow\\FixItNow\\Models\\ServiceCategory.cs",
+              "RelativeDocumentMoniker": "Models\\ServiceCategory.cs",
+              "ToolTip": "E:\\DDU\\Sem_5\\WAD\\FixItNow\\FixItNow\\Models\\ServiceCategory.cs",
+              "RelativeToolTip": "Models\\ServiceCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T15:19:42.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "E:\\DDU\\Sem_5\\WAD\\FixItNow\\FixItNow\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "E:\\DDU\\Sem_5\\WAD\\FixItNow\\FixItNow\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAcwIcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-08T15:17:58.727Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+@model IEnumerable<FixItNow.Models.ServiceRequest>
+@{
+    ViewData["Title"] = "My Bookings";
+}
+
+<h1 class="h4 mb-3">My Bookings</h1>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">You have no bookings yet.</div>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Service</th>
+                <th>Category</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Price (₹)</th>
+                <th>Status</th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var b in Model)
+        {
+            <tr>
+                <td>@b.Id</td>
+                <td>@b.Service?.Name</td>
+                <td>@b.Service?.Category?.Name</td>
+                <td>@b.PreferredDate.ToShortDateString()</td>
+                <td>@b.PreferredTime</td>
+                <td>@b.EstimatedPrice</td>
+                <td>
+                    <span class="badge badge-secondary">@b.Status</span>
+                </td>
+            </tr>
+        }
+        </tbody>
+    </table>
+}
+
+

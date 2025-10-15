@@ -1,0 +1,171 @@
+@{
+    ViewData["Title"] = "Login";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - FixItNow</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css?v=@DateTime.Now.Ticks" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { 
+            font-family: 'Inter', sans-serif; 
+            background-color: #f8f9fa; 
+            margin: 0; 
+            padding: 0; 
+        }
+        .auth-container { 
+            min-height: 100vh; 
+            background-color: #2563eb; 
+            display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            padding: 20px; 
+        }
+        .auth-card { 
+            background: white; 
+            border-radius: 12px; 
+            padding: 40px; 
+            width: 100%; 
+            max-width: 400px; 
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+            border: 1px solid #e9ecef; 
+        }
+        .auth-header { 
+            text-align: center; 
+            margin-bottom: 30px; 
+        }
+        .auth-header h1 { 
+            font-size: 2rem; 
+            font-weight: 700; 
+            color: #212529; 
+            margin: 0 0 8px 0; 
+        }
+        .auth-header p { 
+            color: #6c757d; 
+            margin: 0; 
+            font-size: 1rem; 
+        }
+        .auth-form .form-group { 
+            margin-bottom: 20px; 
+        }
+        .auth-form label { 
+            font-weight: 600; 
+            color: #495057; 
+            margin-bottom: 8px; 
+            display: block; 
+            font-size: 14px; 
+        }
+        .auth-form .form-control { 
+            border: 1px solid #ced4da; 
+            border-radius: 8px; 
+            padding: 12px 16px; 
+            font-size: 16px; 
+            transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; 
+            background: white; 
+        }
+        .auth-form .form-control:focus { 
+            border-color: #2563eb; 
+            box-shadow: 0 0 0 0.2rem rgba(37, 99, 235, 0.25); 
+            outline: none; 
+        }
+        .auth-form .form-control::placeholder { 
+            color: #6c757d; 
+        }
+        .auth-btn { 
+            width: 100%; 
+            background: #2563eb; 
+            border: none; 
+            border-radius: 8px; 
+            padding: 12px 24px; 
+            font-size: 16px; 
+            font-weight: 600; 
+            color: white; 
+            cursor: pointer; 
+            transition: background-color 0.15s ease-in-out; 
+            margin-bottom: 20px; 
+        }
+        .auth-btn:hover { 
+            background: #1d4ed8; 
+        }
+        .auth-btn:disabled { 
+            background: #6c757d; 
+            cursor: not-allowed; 
+        }
+        .auth-link { 
+            text-align: center; 
+        }
+        .auth-link a { 
+            color: #2563eb; 
+            text-decoration: none; 
+            font-weight: 600; 
+        }
+        .auth-link a:hover { 
+            text-decoration: underline; 
+        }
+        .validation-summary { 
+            display: none; 
+        }
+    </style>
+</head>
+<body>
+    <div class="auth-container">
+        <div class="auth-card">
+            <div class="auth-header">
+                <h1>Welcome back</h1>
+                <p>Login to your account</p>
+            </div>
+            
+            <form asp-action="Login" method="post" class="auth-form">
+                @Html.AntiForgeryToken()
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input name="username" id="username" class="form-control" placeholder="Enter your username" required />
+                </div>
+                
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input name="password" id="password" type="password" class="form-control" placeholder="Enter your password" required />
+                </div>
+                
+                <button type="submit" class="auth-btn">Sign in</button>
+                
+                <div class="auth-link">
+                    <a href="/Account/Register">Create account</a>
+                </div>
+                
+                @Html.ValidationSummary(false, "", new { @class = "validation-summary" })
+            </form>
+        </div>
+        
+    </div>
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        function showHelp() {
+            alert('Need help? Contact our support team at support@fixitnow.com or call 1-800-FIXIT-NOW');
+        }
+        
+        // Form validation and enhancement
+        document.addEventListener('DOMContentLoaded', function() {
+            const form = document.querySelector('.auth-form');
+            const submitBtn = document.querySelector('.auth-btn');
+            
+            form.addEventListener('submit', function(e) {
+                submitBtn.disabled = true;
+                submitBtn.textContent = 'Signing in...';
+            });
+            
+            // Auto-focus on username field
+            document.getElementById('username').focus();
+        });
+    </script>
+</body>
+</html>
+

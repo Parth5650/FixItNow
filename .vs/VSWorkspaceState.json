@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\FixItNow",
+    "\\FixItNow\\Models",
+    "\\FixItNow\\obj",
+    "\\FixItNow\\Properties",
+    "\\FixItNow\\Views",
+    "\\FixItNow\\Views\\Requests",
+    "\\FixItNow\\wwwroot",
+    "\\FixItNow\\wwwroot\\css"
+  ],
+  "SelectedNode": "\\FixItNow\\Views\\Requests\\Create.cshtml",
+  "PreviewInSolutionExplorer": false
+}
