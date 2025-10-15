@@ -1,0 +1,20 @@
+# Visual Studio cache
+.vs/
+*.user
+*.suo
+
+# Build folders
+bin/
+obj/
+Debug/
+Release/
+
+# Other generated files
+*.dll
+*.exe
+*.pdb
+*.cache
+*.log
+*.tmp
+*.db
+*.bak
